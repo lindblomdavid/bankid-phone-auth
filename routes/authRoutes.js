@@ -1,7 +1,7 @@
 // routes/authRoutes.js
 const express = require('express');
 const router = express.Router();
-const bankIdService = require('../services/bankidService'); // Adjust the path as needed
+const bankIdService = require('../services/bankidService'); 
 
 router.post('/start-phone-auth', async (req, res) => {
   try {

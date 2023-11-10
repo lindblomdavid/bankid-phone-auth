@@ -4,7 +4,7 @@ const https = require('https');
 const fs = require('fs');
 const path = require('path');
 
-// Load the .p12 file and passphrase from environment variables
+// Load the .p12 file and passphrase from environment variables.
 const bankIdApiUrl = process.env.BANKID_API_URL;
 const p12Path = path.resolve(process.env.BANKID_CERT_PATH);
 const p12Passphrase = process.env.BANKID_CERT_PASSPHRASE;

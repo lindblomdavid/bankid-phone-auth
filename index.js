@@ -2,7 +2,7 @@
 require('dotenv').config();
 const express = require('express');
 const app = express();
-const authMiddleware = require('./middleware/auth'); // Adjust the path as necessary
+const authMiddleware = require('./middleware/auth');
 const authRoutes = require('./routes/authRoutes');
 
 app.use(express.json()); // For parsing application/json
