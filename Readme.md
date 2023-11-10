@@ -15,14 +15,14 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 - Node.js
 - npm (Node package manager)
-- A BankID test account and associated .p12 certificate
+- A BankID test associated .p12 certificate (availble att bankids developer website)
 
 ### Installation
 1. Clone the repo: git clone https://github.com/yourusername/bankid-phone-auth.git
 2. Navigate to the project directory: cd bankid-phone-auth
 3. Install NPM packages: npm install
 4.  Create a `.env` file in the root directory and fill it with the necessary environment variables:
-   BANKID_API_URL=your_bankid_api_url
+   BANKID_API_URL=https://appapi2.test.bankid.com
   BANKID_CERT_PATH=path_to_your_p12_certificate
   APP_API_KEY=your_generated_api_key
 5. Start the server: npm start
@@ -57,7 +57,7 @@ This software is provided "as is", without warranty of any kind. Users of this r
 
 
   ### Acknowledgments
-    - BankID team for the API documentation and support
+    - BankID team for the API documentation.
       
 
 
